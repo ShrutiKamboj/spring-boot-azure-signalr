@@ -6,4 +6,4 @@
 
 
 # for running the application 
-write your signalR instance and access key values in application-dev.properties 
+add your signalR instance and access key values in application-dev.properties 
