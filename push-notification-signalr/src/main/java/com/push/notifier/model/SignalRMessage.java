@@ -1,19 +1,19 @@
 package com.push.notifier.model;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import lombok.ToString;
 
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
-public class SignalRInfo {
-	
-	private String url;
-	
-	private String accessToken;
+@ToString
+public class SignalRMessage {
 
+	private Object[] arguments;
+	
+	private String target;
 }
