@@ -5,4 +5,5 @@
  3. closing a connection
 
 
-# for running the application write your signalR instance and access key values in application-dev.properties 
+# for running the application 
+write your signalR instance and access key values in application-dev.properties 
